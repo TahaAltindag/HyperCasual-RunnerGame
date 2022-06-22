@@ -27,6 +27,5 @@ public class CharacterMovement : MonoBehaviour
         forwardSpeed = swerveSpeed = 0f;
         animator.SetBool("isFinished", true);
         wall.SetActive(true);
-        
     }
 }
