@@ -14,7 +14,7 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        wall.SetActive(false);
+       // wall.SetActive(false);
         rb = GetComponent<Rigidbody>();
     }
 
