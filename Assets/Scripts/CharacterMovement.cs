@@ -6,10 +6,13 @@ public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private float forwardSpeed;
     [SerializeField] private float swerveSpeed;
+    [SerializeField] public GameObject wall;
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
+        wall.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,5 +20,13 @@ public class CharacterMovement : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal") * swerveSpeed * Time.deltaTime;
         this.transform.Translate(horizontal, 0, forwardSpeed * Time.deltaTime);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+
+        forwardSpeed = swerveSpeed = 0f;
+        animator.SetBool("isFinished", true);
+        wall.SetActive(true);
+        
     }
 }
