@@ -7,12 +7,24 @@ public class BotMovement : MonoBehaviour
 {
 
     public Transform finishLine;
-    // Start is called before the first frame update
+    private Transform startPos;
+    private Vector3 pos;
+    NavMeshAgent agent;
     void Start()
     {
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        startPos = GetComponent<Transform>();
+        pos = startPos.position;
+        agent = GetComponent<NavMeshAgent>();
         agent.destination = finishLine.position;
+        
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Obstacle" || collision.collider.tag == "stick")
+        {
+            agent.transform.position = pos;
+        }
     }
 
-    
+
 }

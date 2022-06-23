@@ -6,6 +6,7 @@ TagManager:
   tags:
   - stick
   - FinishLine
+  - Obstacle
   layers:
   - Default
   - TransparentFX

@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1 &6367860
@@ -356,7 +360,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.25
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -367,7 +371,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &162392234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,9 +511,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1606324322754787308, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1606324322754787309, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: rotation.y
-      value: -120
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_Name
@@ -518,6 +526,10 @@ PrefabInstance:
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -601,8 +613,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -654,7 +674,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.22
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -665,7 +685,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &245898474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,6 +897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1001 &343717983
@@ -939,8 +963,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -1264,6 +1296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1001 &504657901
@@ -1454,6 +1490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!4 &523646882 stripped
@@ -1521,8 +1561,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -1647,7 +1695,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.25
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1658,7 +1706,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &545394221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1738,8 +1786,16 @@ PrefabInstance:
       value: HorizontalObstacle (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6262629928567193922, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262629928567193922, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496510000305241104, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6747100403009723384, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
       propertyPath: m_RootOrder
@@ -1841,7 +1897,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.22
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1852,7 +1908,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!95 &655238718
 Animator:
   serializedVersion: 3
@@ -2109,7 +2165,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.25
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2120,7 +2176,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &781275699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2239,9 +2295,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1606324322754787308, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1606324322754787309, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: rotation.y
-      value: -120
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_Name
@@ -2250,6 +2310,10 @@ PrefabInstance:
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2384,6 +2448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Half_Donut (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 208271849827719611, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 695874897389388545, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2432,6 +2500,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6232894255871045716, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
 --- !u!1001 &883443138
@@ -2444,6 +2516,10 @@ PrefabInstance:
     - target: {fileID: 208271849827719611, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
       propertyPath: m_Name
       value: Half_Donut (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 208271849827719611, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 695874897389388545, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
       propertyPath: m_RootOrder
@@ -2492,6 +2568,10 @@ PrefabInstance:
     - target: {fileID: 1020336036877789146, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232894255871045716, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
@@ -2878,6 +2958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1001 &987336662
@@ -2931,6 +3015,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1606324322754787308, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606324322754787309, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: rotation.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_Name
       value: Rotator (2)
@@ -2938,6 +3030,10 @@ PrefabInstance:
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3635,7 +3731,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.047000002, y: 0.128, z: 0.047000002}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 0
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -3651,8 +3747,20 @@ PrefabInstance:
       value: HorizontalObstacle (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6262629928567193922, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262629928567193922, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496510000305241104, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496510000305241105, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: frequency
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6747100403009723384, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
       propertyPath: m_RootOrder
@@ -3736,7 +3844,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.25
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3747,7 +3855,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &1165642241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3915,8 +4023,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -4169,6 +4285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1001 &1382516736
@@ -4329,8 +4449,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -4417,8 +4545,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -4493,6 +4629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1 &1433160288 stripped
@@ -4528,7 +4668,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.25
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4539,7 +4679,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!95 &1433160292
 Animator:
   serializedVersion: 3
@@ -4649,8 +4789,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -4916,7 +5064,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.22
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4927,7 +5075,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!95 &1672947077
 Animator:
   serializedVersion: 3
@@ -5119,8 +5267,16 @@ PrefabInstance:
       value: StaticObstacle (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -5152,7 +5308,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.22
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5163,7 +5319,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!95 &1747479803
 Animator:
   serializedVersion: 3
@@ -5307,8 +5463,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6262629928567193922, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262629928567193922, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496510000305241104, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496510000305241105, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
+      propertyPath: frequency
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6747100403009723384, guid: 07f9755ca288edb4ab22f9d22533469c, type: 3}
       propertyPath: m_RootOrder
@@ -5384,7 +5552,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.18
-  m_Speed: 0.25
+  m_Speed: 0.6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5395,7 +5563,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
 --- !u!95 &1818736664
 Animator:
   serializedVersion: 3
@@ -5728,6 +5896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1 &2031768734 stripped
@@ -5822,6 +5994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
 --- !u!1001 &2066041937
@@ -5875,6 +6051,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1606324322754787308, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606324322754787309, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: rotation.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_Name
       value: Rotator (4)
@@ -5882,6 +6066,10 @@ PrefabInstance:
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6089,6 +6277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Half_Donut
       objectReference: {fileID: 0}
+    - target: {fileID: 208271849827719611, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 695874897389388545, guid: 1c6ff1ea90aa2144590b0d62fa70443f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6193,6 +6385,10 @@ PrefabInstance:
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_Name
       value: Rotator
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1912805690071037582, guid: 645be9f35ee796047be045319b01ff49, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6341,8 +6537,16 @@ PrefabInstance:
       value: StaticObstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359189341866384339, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889455434536669841, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17866ceb6e85b424586c885fed1cb54a, type: 3}
@@ -6476,7 +6680,7 @@ GameObject:
   - component: {fileID: 6262629929255594443}
   m_Layer: 0
   m_Name: HorizontalObstacle (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -6493,7 +6697,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.047000002, y: 0.128, z: 0.047000002}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 0
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -6523,7 +6727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e6366de3ea8fb049bc9d631488479c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 3
+  frequency: 1.5
   magnitude: 0.5
   offset: 1
 --- !u!4 &6747100404593603440

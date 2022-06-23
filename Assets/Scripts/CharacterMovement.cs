@@ -7,12 +7,14 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float forwardSpeed;
     [SerializeField] private float swerveSpeed;
     [SerializeField] public GameObject wall;
+    private Vector3 startPos;
     Animator animator;
     Rigidbody rb;
     private bool isBouncing = false;
     // Start is called before the first frame update
     void Start()
     {
+        startPos = GetComponent<Transform>().position;
         animator = GetComponent<Animator>();
        // wall.SetActive(false);
         rb = GetComponent<Rigidbody>();
@@ -25,6 +27,11 @@ public class CharacterMovement : MonoBehaviour
         {
             float horizontal = Input.GetAxis("Horizontal") * swerveSpeed * Time.deltaTime;
             this.transform.Translate(horizontal, 0, forwardSpeed * Time.deltaTime); 
+        }
+        //if character falls it starts from the starting point
+        if (transform.position.y < -0.5f)
+        {
+            transform.position = startPos;
         }
     }
     private void OnTriggerEnter(Collider other)
