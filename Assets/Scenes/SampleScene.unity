@@ -186,10 +186,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (7)
@@ -746,10 +742,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (2)
@@ -819,10 +811,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (10)
@@ -1181,10 +1169,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (4)
@@ -1371,10 +1355,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (8)
@@ -2766,10 +2746,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (9)
@@ -3944,10 +3920,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (6)
@@ -4239,10 +4211,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (11)
@@ -5445,10 +5413,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (3)
@@ -5518,10 +5482,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1322978591113557007, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 04bac2b4a2c0f924583d0b087b6dfeed, type: 2}
     - target: {fileID: 919132149155446097, guid: e7116efed0b4fbe45ad9eb492b939ab5, type: 3}
       propertyPath: m_Name
       value: Girl (5)
