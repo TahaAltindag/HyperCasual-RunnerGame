@@ -16,7 +16,7 @@ public class CharacterMovement : MonoBehaviour
     {
         startPos = GetComponent<Transform>().position;
         animator = GetComponent<Animator>();
-       // wall.SetActive(false);
+        wall.SetActive(false);
         rb = GetComponent<Rigidbody>();
     }
 
