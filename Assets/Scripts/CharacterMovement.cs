@@ -7,6 +7,9 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float forwardSpeed;
     [SerializeField] private float swerveSpeed;
     [SerializeField] public GameObject wall;
+    public GameObject percentageText;
+    public GameObject rankText;
+    private PercentageCalculator pc;
     private Vector3 startPos;
     Animator animator;
     Rigidbody rb;
@@ -14,9 +17,11 @@ public class CharacterMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pc = wall.GetComponent<PercentageCalculator>();
         startPos = GetComponent<Transform>().position;
         animator = GetComponent<Animator>();
         wall.SetActive(false);
+        percentageText.SetActive(false);
         rb = GetComponent<Rigidbody>();
     }
 
@@ -42,6 +47,9 @@ public class CharacterMovement : MonoBehaviour
             forwardSpeed = swerveSpeed = 0f;
             animator.SetBool("isFinished", true);
             wall.SetActive(true); 
+            rankText.SetActive(false);
+            percentageText.SetActive(true);
+            StartCoroutine(pc.SetTextures());
         }
         if (collision.collider.tag == "stick")
         {

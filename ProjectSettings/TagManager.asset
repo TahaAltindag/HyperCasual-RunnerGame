@@ -17,6 +17,8 @@ TagManager:
   - Rank8
   - Rank9
   - Rank10
+  - ahead
+  - back
   layers:
   - Default
   - TransparentFX

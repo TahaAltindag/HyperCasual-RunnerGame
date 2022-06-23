@@ -1,35 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 public class RankCalculator : MonoBehaviour
 {
-    public Transform[] competitors;
-    private float[] distances;
+    public Transform[] opponents;
+    public Transform player;
+    public TMP_Text textTMP;
+    public int rank = 11;
 
-    Dictionary<int, float> opponents = new Dictionary<int, float>();
-
-    void Start()
+    void Update()
     {
-        
-        distances = new float[11];
-        Sort();
-        for (int i = 0; i < 11; i++)
+        for (int i = 0; i < 10; i++)
         {
-            Debug.Log(distances[i]);
+            if (player.position.x > opponents[i].position.x )
+            {
+                if(opponents[i].tag == "ahead")
+                {
+                    rank--;
+                }
+                opponents[i].tag = "back";
+            }
+            if (player.position.x < opponents[i].position.x)
+            {
+                if (opponents[i].tag == "back")
+                {
+                    rank++; 
+                }
+                opponents[i].tag = "ahead";
+            }
         }
-    }
-    void Sort()
-    {
-        for (int i = 0; i < competitors.Length; i++)
-        {
-
-            distances[i] = Vector3.Distance(competitors[i].position, transform.position);
-            opponents.Add(i, distances[i]);
-        }
-       // System.Array.Sort();
-
+        textTMP.text = "Your rank: " + rank.ToString();
     }
     
+
 }
