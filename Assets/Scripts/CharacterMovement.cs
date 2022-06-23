@@ -34,18 +34,15 @@ public class CharacterMovement : MonoBehaviour
             transform.position = startPos;
         }
     }
-    private void OnTriggerEnter(Collider other)
+    
+    private void OnCollisionEnter(Collision collision)
     {
-
-        if (other.tag == "FinishLine")
+        if (collision.collider.tag == "FinishLine")
         {
             forwardSpeed = swerveSpeed = 0f;
             animator.SetBool("isFinished", true);
             wall.SetActive(true); 
         }
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
         if (collision.collider.tag == "stick")
         {
             float bounce = 100f;

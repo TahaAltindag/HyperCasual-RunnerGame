@@ -10,8 +10,10 @@ public class BotMovement : MonoBehaviour
     private Transform startPos;
     private Vector3 pos;
     NavMeshAgent agent;
+    Animator animator;
     void Start()
     {
+        animator = GetComponent<Animator>();
         startPos = GetComponent<Transform>();
         pos = startPos.position;
         agent = GetComponent<NavMeshAgent>();
@@ -24,6 +26,12 @@ public class BotMovement : MonoBehaviour
         {
             agent.transform.position = pos;
         }
+        if(collision.collider.tag == "FinishLine")
+        {
+            animator.SetBool("isFinished", true);
+            agent.isStopped = true;
+        }
+        
     }
 
 
